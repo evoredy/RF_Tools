@@ -2,7 +2,8 @@
 
  This is to initilize the USRP Radio (a B2xx in this case), record samples to disk, and dynamically change the frequency and
  gain without deconstructing the UHD link to the USRP device. This is a great candidate for modification, wrapping, scientific
- analysis, etc.
+ analysis, etc. This currelty uses the Ettus USRP framework (http://files.ettus.com/manual/). Other frameworks will be added
+ as needed. 
 
  This will push the kernel module to the limits as we want to be able to change sampling rates and frequencies 
  on demand without de-constructing the UHD stack. You will need a fast hard drive and at a lot of space to produce 
@@ -38,12 +39,16 @@ Recommended configuration
     * 4GB memory (can be flexible to 1GB / but untested)
     * SSD hardisk (at least 350-400MB/sec write speed and configured properly)
     * UHD USRP Radio at USB3 speeds (B200 / B205 / B210 [mini or regular])
+    * If you are getting significant overflows (lots of "O's" to STDOUT, check your performance)
 
 To compile, you will need
-    * [uhd]
+    * [uhd](https://github.com/EttusResearch/uhd)
     * [libboost]
     * [gcc]
     * [cmake]
+
+To look at the output RF files statically, you can use
+    * [inspectrum](https://github.com/miek/inspectrum)
 
 ## Getting started
 
