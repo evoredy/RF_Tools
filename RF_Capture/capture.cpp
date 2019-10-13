@@ -135,6 +135,7 @@ int main () {
     // set and cycle through the known downlink center freqencies
     // call the functions and make tunig adjustments before the call.
     // we're only shlepping through US frequencies for testing
+    // FIXME: Let's turn this into a function adn call it
     for (int i = 0; i < 2; ++i) {
         double pfreq=freq[i];
         std::cout << pfreq <<std::endl;
