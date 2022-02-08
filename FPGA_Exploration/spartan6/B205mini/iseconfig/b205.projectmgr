@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="b205" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/axi_add_preamble |home|ise|ise_projects|usrp3|lib|axi|axi_add_preamble.v</ClosedNode>
+         <ClosedNode>/axi_crossbar_regport |home|ise|ise_projects|usrp3|lib|control|axi_crossbar_regport.v</ClosedNode>
+         <ClosedNode>/axi_demux8 |home|ise|ise_projects|usrp3|lib|fifo|axi_demux8.v</ClosedNode>
+         <ClosedNode>/axi_dma_fifo |home|ise|ise_projects|usrp3|lib|axi|axi_dma_fifo.v</ClosedNode>
+         <ClosedNode>/axi_embed_tlast_tkeep |home|ise|ise_projects|usrp3|lib|axi|axi_embed_tlast_tkeep.v</ClosedNode>
+         <ClosedNode>/axi_fifo_cascade |home|ise|ise_projects|usrp3|lib|fifo|axi_fifo_cascade.v</ClosedNode>
+         <ClosedNode>/axi_filter_mux4 |home|ise|ise_projects|usrp3|lib|fifo|axi_filter_mux4.v</ClosedNode>
+         <ClosedNode>/axi_loopback |home|ise|ise_projects|usrp3|lib|fifo|axi_loopback.v</ClosedNode>
+         <ClosedNode>/axi_mux8 |home|ise|ise_projects|usrp3|lib|fifo|axi_mux8.v</ClosedNode>
+         <ClosedNode>/axi_mux_select |home|ise|ise_projects|usrp3|lib|fifo|axi_mux_select.v</ClosedNode>
+         <ClosedNode>/axi_setting_reg |home|ise|ise_projects|usrp3|lib|control|axi_setting_reg.v</ClosedNode>
+         <ClosedNode>/axi_stream_to_wb |home|ise|ise_projects|usrp3|lib|wishbone|axi_stream_to_wb.v</ClosedNode>
+         <ClosedNode>/axi_strip_preamble |home|ise|ise_projects|usrp3|lib|axi|axi_strip_preamble.v</ClosedNode>
+         <ClosedNode>/axi_to_strobed |home|ise|ise_projects|usrp3|lib|axi|axi_to_strobed.v</ClosedNode>
+         <ClosedNode>/axil_regport_master |home|ise|ise_projects|usrp3|lib|control|axil_regport_master.v</ClosedNode>
+         <ClosedNode>/axis_data_swap |home|ise|ise_projects|usrp3|lib|axi|axis_data_swap.v</ClosedNode>
+         <ClosedNode>/axis_fifo_monitor |home|ise|ise_projects|usrp3|lib|fifo|axis_fifo_monitor.v</ClosedNode>
+         <ClosedNode>/axis_muxed_kv_map |home|ise|ise_projects|usrp3|lib|control|map|axis_muxed_kv_map.v</ClosedNode>
+         <ClosedNode>/axis_shift_register |home|ise|ise_projects|usrp3|lib|axi|axis_shift_register.v</ClosedNode>
+         <ClosedNode>/axis_split |home|ise|ise_projects|usrp3|lib|axi|axis_split.v</ClosedNode>
+         <ClosedNode>/axis_width_conv |home|ise|ise_projects|usrp3|lib|axi|axis_width_conv.v</ClosedNode>
+         <ClosedNode>/b205 |home|ise|ise_projects|usrp3|top|b2xxmini|b205.v</ClosedNode>
+         <ClosedNode>/chdr_16s_to_32f |home|ise|ise_projects|usrp3|lib|vita_200|chdr_16s_to_32f.v</ClosedNode>
+         <ClosedNode>/chdr_16s_to_8s |home|ise|ise_projects|usrp3|lib|vita_200|chdr_16s_to_8s.v</ClosedNode>
+         <ClosedNode>/chdr_32f_to_16s |home|ise|ise_projects|usrp3|lib|vita_200|chdr_32f_to_16s.v</ClosedNode>
+         <ClosedNode>/chdr_8s_to_16s |home|ise|ise_projects|usrp3|lib|vita_200|chdr_8s_to_16s.v</ClosedNode>
+         <ClosedNode>/cvita_dest_lookup |home|ise|ise_projects|usrp3|lib|packet_proc|cvita_dest_lookup.v</ClosedNode>
+         <ClosedNode>/cvita_dest_lookup_legacy |home|ise|ise_projects|usrp3|lib|packet_proc_200|cvita_dest_lookup_legacy.v</ClosedNode>
+         <ClosedNode>/cvita_uart |home|ise|ise_projects|usrp3|lib|control_200|cvita_uart.v</ClosedNode>
+         <ClosedNode>/db_control |home|ise|ise_projects|usrp3|lib|control|db_control.v</ClosedNode>
+         <ClosedNode>/fe_control |home|ise|ise_projects|usrp3|lib|control|fe_control.v</ClosedNode>
+         <ClosedNode>/fifo64_to_axi4lite |home|ise|ise_projects|usrp3|lib|fifo|fifo64_to_axi4lite.v</ClosedNode>
+         <ClosedNode>/filter_bad_sid |home|ise|ise_projects|usrp3|lib|control|filter_bad_sid.v</ClosedNode>
+         <ClosedNode>/gearbox_2x1 |home|ise|ise_projects|usrp3|lib|control|gearbox_2x1.v</ClosedNode>
+         <ClosedNode>/handshake |home|ise|ise_projects|usrp3|lib|control|handshake.v</ClosedNode>
+         <ClosedNode>/pps_synchronizer |home|ise|ise_projects|usrp3|lib|timing|pps_synchronizer.v</ClosedNode>
+         <ClosedNode>/rx_frontend |home|ise|ise_projects|usrp3|lib|dsp|rx_frontend.v</ClosedNode>
+         <ClosedNode>/settings_bus_mux |home|ise|ise_projects|usrp3|lib|control|settings_bus_mux.v</ClosedNode>
+         <ClosedNode>/settings_bus_timed_2clk |home|ise|ise_projects|usrp3|lib|control|settings_bus_timed_2clk.v</ClosedNode>
+         <ClosedNode>/simple_i2c_core |home|ise|ise_projects|usrp3|lib|control|simple_i2c_core.v</ClosedNode>
+         <ClosedNode>/simple_spi_core_64bit |home|ise|ise_projects|usrp3|lib|control|simple_spi_core_64bit.v</ClosedNode>
+         <ClosedNode>/simple_uart |home|ise|ise_projects|usrp3|lib|wishbone|simple_uart.v</ClosedNode>
+         <ClosedNode>/strobed_to_axi |home|ise|ise_projects|usrp3|lib|axi|strobed_to_axi.v</ClosedNode>
+         <ClosedNode>/tx_frontend |home|ise|ise_projects|usrp3|lib|dsp|tx_frontend.v</ClosedNode>
+         <ClosedNode>/variable_delay_line |home|ise|ise_projects|usrp3|lib|dsp|variable_delay_line.v</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>settings_bus_timed_2clk (/home/ise/ise_projects/usrp3/lib/control/settings_bus_timed_2clk.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >72</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ac000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ac0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>settings_bus_timed_2clk (/home/ise/ise_projects/usrp3/lib/control/settings_bus_timed_2clk.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000390000000040101000100000000000000000000000064ffffffff000000810000000000000004000000e100000001000000000000011b0000000100000000000000840000000100000000000001100000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>acc.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000128000000010001000100000000000000000000000064ffffffff000000810000000000000001000001280000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+</Project>

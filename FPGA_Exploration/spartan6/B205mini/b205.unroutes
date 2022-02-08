@@ -1,0 +1,57 @@
+Release 14.7 - par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Feb  7 03:41:27 2022
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 45 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   CAT_CTL_OUT<0>_IBUF
+   CAT_CTL_OUT<1>_IBUF
+   CAT_CTL_OUT<2>_IBUF
+   CAT_CTL_OUT<3>_IBUF
+   CAT_CTL_OUT<4>_IBUF
+   CAT_CTL_OUT<5>_IBUF
+   CAT_RX_FR_P_IBUF
+   FX3_CTL6_IBUF
+   FX3_CTL8_IBUF
+   b205_core/radio/ctrl_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM10_RAMD_D1_O
+   b205_core/radio/ctrl_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM11_RAMD_D1_O
+   b205_core/radio/ctrl_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   b205_core/radio/ctrl_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   b205_core/radio/ctrl_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM3_RAMD_D1_O
+   b205_core/radio/ctrl_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM4_RAMD_D1_O
+   b205_core/radio/ctrl_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM5_RAMD_D1_O
+   b205_core/radio/ctrl_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM6_RAMD_D1_O
+   b205_core/radio/ctrl_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM7_RAMD_D1_O
+   b205_core/radio/ctrl_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM8_RAMD_D1_O
+   b205_core/radio/ctrl_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM9_RAMD_D1_O
+   b205_core/radio/resp_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM10_RAMD_D1_O
+   b205_core/radio/resp_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM11_RAMD_D1_O
+   b205_core/radio/resp_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   b205_core/radio/resp_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   b205_core/radio/resp_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM3_RAMD_D1_O
+   b205_core/radio/resp_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM4_RAMD_D1_O
+   b205_core/radio/resp_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM5_RAMD_D1_O
+   b205_core/radio/resp_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM6_RAMD_D1_O
+   b205_core/radio/resp_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM7_RAMD_D1_O
+   b205_core/radio/resp_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM8_RAMD_D1_O
+   b205_core/radio/resp_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM9_RAMD_D1_O
+   slave_fifo32/fifo64_to_gpif2_resp/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   slave_fifo32/fifo64_to_gpif2_resp/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   slave_fifo32/fifo64_to_gpif2_resp/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM3_RAMD_D1_O
+   slave_fifo32/fifo64_to_gpif2_resp/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM4_RAMD_D1_O
+   slave_fifo32/fifo64_to_gpif2_resp/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM5_RAMD_D1_O
+   slave_fifo32/fifo64_to_gpif2_resp/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM6_RAMC_D1_DPO
+   slave_fifo32/fifo64_to_gpif2_resp/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM6_RAMD_D1_O
+   slave_fifo32/gpif2_to_fifo64_ctrl/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   slave_fifo32/gpif2_to_fifo64_ctrl/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   slave_fifo32/gpif2_to_fifo64_ctrl/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM3_RAMD_D1_O
+   slave_fifo32/gpif2_to_fifo64_ctrl/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM4_RAMD_D1_O
+   slave_fifo32/gpif2_to_fifo64_ctrl/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM5_RAMD_D1_O
+   slave_fifo32/gpif2_to_fifo64_ctrl/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM6_RAMC_D1_DPO
+   slave_fifo32/gpif2_to_fifo64_ctrl/cross_clock_fifo/fifo_section[0].impl_srl_i/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM6_RAMD_D1_O
+
+

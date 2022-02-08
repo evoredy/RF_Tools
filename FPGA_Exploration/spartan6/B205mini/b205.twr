@@ -1,0 +1,228 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -e 10 -s 3
+-n 3 -fastpaths -xml b205.twx b205.ncd -o b205.twr b205.pcf
+
+Design file:              b205.ncd
+Physical constraint file: b205.pcf
+Device,package,speed:     xc6slx150,csg484,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             error report, limited to 10 items per endpoint, 3 endpoints per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_CLK_40MHz_FPGA = PERIOD TIMEGRP "CLK_40MHz_FPGA" 25 ns 
+HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is  10.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_FX3_PCLK = PERIOD TIMEGRP "FX3_PCLK" 10 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_CAT_DCLK_P = PERIOD TIMEGRP "CAT_DCLK_P" 16.276 ns HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   0.925ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_bus_clk = PERIOD TIMEGRP "bus_clk" 10 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   3.124ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_gen_clks_clkout1 = PERIOD TIMEGRP "gen_clks_clkout1" 
+TS_CLK_40MHz_FPGA /         2.5 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 96836 paths analyzed, 17733 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   9.309ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_gen_clks_clkout0 = PERIOD TIMEGRP "gen_clks_clkout0" 
+TS_CLK_40MHz_FPGA HIGH         50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 1 path analyzed, 1 endpoint analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   1.841ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_gen_clks_clkout2 = PERIOD TIMEGRP "gen_clks_clkout2" 
+TS_CLK_40MHz_FPGA / 5         HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 55123 paths analyzed, 2515 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.750ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_b205_io_i0_io_clk_lb_b = PERIOD TIMEGRP 
+"b205_io_i0_io_clk_lb_b"         TS_CAT_DCLK_P PHASE 8.138 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   1.403ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_b205_io_i0_siso_clk_unbuf = PERIOD TIMEGRP 
+"b205_io_i0_siso_clk_unbuf"         TS_CAT_DCLK_P HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 72 paths analyzed, 72 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   5.452ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_b205_io_i0_io_clk_lb = PERIOD TIMEGRP 
+"b205_io_i0_io_clk_lb" TS_CAT_DCLK_P         HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 24 paths analyzed, 24 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   8.051ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_b205_io_i0_siso_clk2_unbuf = PERIOD TIMEGRP 
+"b205_io_i0_siso_clk2_unbuf"         TS_CAT_DCLK_P PHASE 8.138 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 1537112 paths analyzed, 96112 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  16.025ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_b205_io_i0_io_clk_lt_b = PERIOD TIMEGRP 
+"b205_io_i0_io_clk_lt_b"         TS_CAT_DCLK_P PHASE 8.138 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   0.814ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_b205_io_i0_io_clk_lt = PERIOD TIMEGRP 
+"b205_io_i0_io_clk_lt" TS_CAT_DCLK_P         HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   0.818ns.
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_CLK_40MHz_FPGA
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_CLK_40MHz_FPGA              |     25.000ns|     10.000ns|     23.750ns|            0|            0|            0|       151960|
+| TS_gen_clks_clkout1           |     10.000ns|      9.309ns|          N/A|            0|            0|        96836|            0|
+| TS_gen_clks_clkout0           |     25.000ns|      1.841ns|          N/A|            0|            0|            1|            0|
+| TS_gen_clks_clkout2           |      5.000ns|      4.750ns|          N/A|            0|            0|        55123|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_CAT_DCLK_P
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_CAT_DCLK_P                  |     16.276ns|      0.925ns|     16.025ns|            0|            0|            0|      1537208|
+| TS_b205_io_i0_io_clk_lb_b     |     16.276ns|      1.403ns|          N/A|            0|            0|            0|            0|
+| TS_b205_io_i0_siso_clk_unbuf  |     16.276ns|      5.452ns|          N/A|            0|            0|           72|            0|
+| TS_b205_io_i0_io_clk_lb       |     16.276ns|      8.051ns|          N/A|            0|            0|           24|            0|
+| TS_b205_io_i0_siso_clk2_unbuf |     16.276ns|     16.025ns|          N/A|            0|            0|      1537112|            0|
+| TS_b205_io_i0_io_clk_lt_b     |     16.276ns|      0.814ns|          N/A|            0|            0|            0|            0|
+| TS_b205_io_i0_io_clk_lt       |     16.276ns|      0.818ns|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CAT_DCLK_P
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CAT_DCLK_P     |   16.025|    1.896|    1.889|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CLK_40MHz_FPGA
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_40MHz_FPGA |    9.309|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 1689168 paths, 0 nets, and 97852 connections
+
+Design statistics:
+   Minimum period:  16.025ns   (Maximum frequency:  62.402MHz)
+
+
+Analysis completed Mon Feb  7 03:41:49 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 1018 MB
+
+
+

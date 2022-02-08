@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="168" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP &quot;ls_misc_out&quot; OFFSET = OUT 15 ns AFTER &quot;bus_clk&quot; RISING;&gt; [/home/ise/ise_projects/usrp3/top/b2xxmini/timing.ucf(36)]</arg>: This constraint will be ignored because <arg fmt="%s" index="2">NET &quot;bus_clk&quot;</arg> could not be found or was not connected to a PAD.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="168" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP &quot;radio_misc_out&quot; OFFSET = OUT 15 ns AFTER &quot;radio_clk&quot; RISING;&gt; [/home/ise/ise_projects/usrp3/top/b2xxmini/timing.ucf(37)]</arg>: This constraint will be ignored because <arg fmt="%s" index="2">NET &quot;radio_clk&quot;</arg> could not be found or was not connected to a PAD.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLK_40MHz_FPGA</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLK_40MHz_FPGA</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_clks_clkout1 = PERIOD &quot;gen_clks_clkout1&quot; TS_CLK_40MHz_FPGA / 2.5 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLK_40MHz_FPGA</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLK_40MHz_FPGA</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_clks_clkout0 = PERIOD &quot;gen_clks_clkout0&quot; TS_CLK_40MHz_FPGA HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLK_40MHz_FPGA</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLK_40MHz_FPGA</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_clks_clkout2 = PERIOD &quot;gen_clks_clkout2&quot; TS_CLK_40MHz_FPGA / 5 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CAT_DCLK_P</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CAT_DCLK_P</arg>&apos;, was traced into <arg fmt="%s" index="4">BUFIO2</arg> instance <arg fmt="%s" index="5">b205_io_i0/clk_bufio_lb_b</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">BUFIO2</arg> output(s): 
+<arg fmt="%s" index="7">IOCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_b205_io_i0_io_clk_lb_b = PERIOD &quot;b205_io_i0_io_clk_lb_b&quot; TS_CAT_DCLK_P PHASE 8138 ps HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CAT_DCLK_P</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CAT_DCLK_P</arg>&apos;, was traced into <arg fmt="%s" index="4">BUFIO2</arg> instance <arg fmt="%s" index="5">b205_io_i0/clk_bufio_lb</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">BUFIO2</arg> output(s): 
+<arg fmt="%s" index="7">DIVCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_b205_io_i0_siso_clk_unbuf = PERIOD &quot;b205_io_i0_siso_clk_unbuf&quot; TS_CAT_DCLK_P HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CAT_DCLK_P</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CAT_DCLK_P</arg>&apos;, was traced into <arg fmt="%s" index="4">BUFIO2</arg> instance <arg fmt="%s" index="5">b205_io_i0/clk_bufio_lb</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">BUFIO2</arg> output(s): 
+<arg fmt="%s" index="7">IOCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_b205_io_i0_io_clk_lb = PERIOD &quot;b205_io_i0_io_clk_lb&quot; TS_CAT_DCLK_P HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CAT_DCLK_P</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CAT_DCLK_P</arg>&apos;, was traced into <arg fmt="%s" index="4">BUFIO2</arg> instance <arg fmt="%s" index="5">b205_io_i0/clk_bufio_lt_b</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">BUFIO2</arg> output(s): 
+<arg fmt="%s" index="7">DIVCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_b205_io_i0_siso_clk2_unbuf = PERIOD &quot;b205_io_i0_siso_clk2_unbuf&quot; TS_CAT_DCLK_P PHASE 8138 ps HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CAT_DCLK_P</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CAT_DCLK_P</arg>&apos;, was traced into <arg fmt="%s" index="4">BUFIO2</arg> instance <arg fmt="%s" index="5">b205_io_i0/clk_bufio_lt_b</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">BUFIO2</arg> output(s): 
+<arg fmt="%s" index="7">IOCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_b205_io_i0_io_clk_lt_b = PERIOD &quot;b205_io_i0_io_clk_lt_b&quot; TS_CAT_DCLK_P PHASE 8138 ps HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CAT_DCLK_P</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CAT_DCLK_P</arg>&apos;, was traced into <arg fmt="%s" index="4">BUFIO2</arg> instance <arg fmt="%s" index="5">b205_io_i0/clk_bufio_lt</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">BUFIO2</arg> output(s): 
+<arg fmt="%s" index="7">IOCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_b205_io_i0_io_clk_lt = PERIOD &quot;b205_io_i0_io_clk_lt&quot; TS_CAT_DCLK_P HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">b205_core/radio/ddc_chain/new_hb.hbdec1/blk00000003/blk00000023</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">b205_core/radio/ddc_chain/new_hb.hbdec1/blk00000003/blk00000027</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">b205_core/radio/ddc_chain/new_hb.hbdec1/blk00000003/blk000000b3</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">b205_core/radio/ddc_chain/new_hb.hbdec1/blk00000003/blk000000b5</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">b205_core/radio/ddc_chain/new_hb.hbdec2/blk00000003/blk00000020</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">b205_core/radio/ddc_chain/new_hb.hbdec2/blk00000003/blk00000024</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">b205_core/radio/ddc_chain/new_hb.hbdec2/blk00000003/blk000000b1</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">b205_core/radio/ddc_chain/new_hb.hbdec2/blk00000003/blk000000b2</arg>&apos; has unconnected output pin
+</msg>
+
+</messages>
+
