@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/home/ise/ise_projects/usrp3/top/b2xxmini/build-B205mini/b205.ncd
-OUTFILE=/home/ise/ise_projects/usrp3/top/b2xxmini/build-B205mini/b205.bit
-FAMILY=Spartan6
-PART=xc6slx150-3csg484
-WORKINGDIR=/home/ise/ise_projects/usrp3/top/b2xxmini/build-B205mini
-LICENSE=ISE
-USER_INFO=8416_11442_1478797146_620

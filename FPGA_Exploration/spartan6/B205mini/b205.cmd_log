@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "/home/ise/ise_projects/usrp3/top/b2xxmini/build-B205mini/b205.xst" -ofn "/home/ise/ise_projects/usrp3/top/b2xxmini/build-B205mini/b205.syr" 
-ngdbuild -intstyle ise -dd _ngo -sd ../coregen -sd ../coregen_dsp -sd ../../../coregen -nt timestamp -uc /home/ise/ise_projects/usrp3/top/b2xxmini/b205.ucf -uc /home/ise/ise_projects/usrp3/top/b2xxmini/timing.ucf -p xc6slx150-csg484-3 b205.ngc b205.ngd  
-map -intstyle ise -p xc6slx150-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -ignore_keep_hierarchy -pr off -lc off -power off -o b205_map.ncd b205.ngd b205.pcf 
-par -w -intstyle ise -ol high -mt off b205_map.ncd b205.ncd b205.pcf 
-trce -intstyle ise -e 10 -s 3 -n 3 -fastpaths -xml b205.twx b205.ncd -o b205.twr b205.pcf 
-bitgen -intstyle ise -f b205.ut b205.ncd 
