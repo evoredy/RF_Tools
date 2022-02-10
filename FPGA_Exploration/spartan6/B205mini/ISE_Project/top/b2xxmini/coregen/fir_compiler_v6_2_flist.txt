@@ -1,0 +1,13 @@
+# Output products list for <fir_compiler_v6_2>
+demo_tb/tb_fir_compiler_v6_2.vhd
+fir_compiler_v6_2.asy
+fir_compiler_v6_2.gise
+fir_compiler_v6_2.mif
+fir_compiler_v6_2.ngc
+fir_compiler_v6_2.v
+fir_compiler_v6_2.veo
+fir_compiler_v6_2.xco
+fir_compiler_v6_2.xise
+fir_compiler_v6_2_flist.txt
+fir_compiler_v6_2_readme.txt
+fir_compiler_v6_2_xmdf.tcl
