@@ -1,5 +1,5 @@
 
-# Welcome the B205i Mini FPGA ISE Design Project v0.0.1a
+# Welcome the B205i Mini FPGA ISE Design Project v0.0.3a
 
 This project is to get you started in developing FPGA code for the Spartan 6 (6slx150csg484-3) FPGA that the National Instruments Ettus Research B205i mini includes. The project was converted from the original verilog using the provided tools with no modification. The ISE project (here) is pre-configured for the aformentioned FPGA model and the 484 pin variant (used in the B205i mini series). Other models like the B200 mini and B205 mini can be supported if the project settings are changed to match their FPGA i.e. selecting the smaller Spartan 6 variant to support the B200 mini.
 
@@ -55,7 +55,9 @@ Specific Feature Utilization:
 
 Install the ISE Design suite and get it running. You may have to disable the processor checking scripts from the Xilinx installer package as newer CPUs may not be detected correctly (like a 12th generation Intel).
 
-Copy this entire project folder to your workspace directory selected during ISE install. Select "open project" and navigate to this folder and select project.
+Copy this entire project folder to your workspace directory selected during ISE install. Select "open project" and navigate to [workspace directory]/ISE_Project/top/b2xxmini/build-B205mini and select the project (it will be clickable in the file browser).
+
+The ISE Design suite can be used to navigate availablie libraries, modify code, and build the bit image for use on the SDR.
 
 Notes and Errata:
 
@@ -63,14 +65,15 @@ Notes and Errata:
 Initial release.
 TODO: Modification examples
 TODO: Potential RFNOC implementation
+TODO: Graphics
 ```
 
-## Changelog v0.0.1a
+## Changelog v0.0.3a
 ```
-  - initial release
+  - added required libraries and verilog and restructured
 ```
 
 ## Known Issues
 ```
-  - initial release
+  - 
 ```
