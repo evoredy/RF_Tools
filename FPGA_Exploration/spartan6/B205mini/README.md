@@ -9,7 +9,7 @@ Disclaimer: "This is for expiremental use. Please use with caution and understan
 
 To run and/or compile, you will need
 * [Xilinx ISE Design Suite 14.7] - free to download from Xilinx with registration
-* [A comptible computer] - The ISE design suite runs in a VM
+* [A compatible computer] - The ISE design suite runs in a VM
 * [Oracle Virtual Box] - Required for the ISE design suite
 * [Target hardware for testing i.e. a B205i mini]
 
