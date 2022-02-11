@@ -59,13 +59,13 @@ Copy this entire project folder to your workspace directory selected during ISE 
 
 The ISE Design suite can be used to navigate availablie libraries, modify code, and build the bit image for use on the SDR.
 
-Notes and Errata:
+## Notes and Errata:
 
 ```
-Initial release.
 TODO: Modification examples
-TODO: Potential RFNOC implementation
+TODO: Potential RFNOC implementation or porting (FFT, Fosphor, etc.)
 TODO: Graphics
+TODO: Build pipeline
 ```
 
 ## Changelog v0.0.3a
