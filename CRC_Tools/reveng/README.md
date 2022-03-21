@@ -4,7 +4,8 @@
 
 This is a simplified version from https://sourceforge.net/projects/reveng/files/3.0.2/ that has a modified config.h 
 and Makefile to compile and support x86_64 more easily. Keep in mind, config.h has to be modified if reverting to
-32 bit architectures
+32 bit architectures. CRC calculation is FAST and allows OK transmission line data to be validated befroe further
+processing. This tool can be scripted in CI environments as a unit test or to be used to find a proprietary seed.
 
 To run and/or compile, you will need
 * [gcc]
